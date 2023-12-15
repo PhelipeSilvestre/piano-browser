@@ -86,6 +86,7 @@ body {
 .key span {
   font-weight: 600;
   position: absolute;
+  transition-duration: 300ms;
 }
 .key {
   position: relative;
@@ -112,4 +113,7 @@ body {
   background: linear-gradient(#222, black);
   border-bottom: node;
   height: 148px;
+}
+.disabled-keys span {
+  opacity: 0;
 }
